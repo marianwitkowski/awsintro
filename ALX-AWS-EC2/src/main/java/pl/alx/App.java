@@ -18,12 +18,12 @@ public class App
     private static AWSCredentials aws_cred = new AWSCredentials() {
         @Override
         public String getAWSAccessKeyId() {
-            return "AKIAY3OL7L2FN6GHCKU2";
+            return "AWS_ACCESS_KEY";
         }
 
         @Override
         public String getAWSSecretKey() {
-            return "AGifbw3UJjks79HbzIikHU5/xxZS3goHDzjOkYL7";
+            return "AWS_SECRECT_KEY";
         }
     };
 
